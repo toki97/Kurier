@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp6"
         mc:Ignorable="d"
-        Title="Szczegóły przesyłki" Height="560" Width="700" Background="LightGray">
+        Title="Szczegóły przesyłki" Height="560" Width="700" Background="LightGray"
+        Name="detailsWindow">
     <Window.Resources>
         <Style x:Key = "gradientButtonStyle" TargetType = "Button">
             <Setter Property="BorderThickness" Value="0"></Setter>
@@ -128,6 +129,7 @@
                 <Button Padding="4" Margin="15,4,4,4" FontSize="14" Click="SaveButton_Click" Style = "{StaticResource gradientButtonStyle}">Zapisz</Button>
                 <Button Padding="4" Margin="15,4,4,4" FontSize="14" Click="DeleteButton_Click" Style = "{StaticResource gradientButtonStyle}">Usuń</Button>
                 <Button Padding="4" Margin="15,4,4,4" FontSize="14" Click="CancelButton_Click" Style = "{StaticResource gradientButtonStyle}">Wróć</Button>
+                <Button Padding="4" Margin="15,4,4,4" FontSize="14" Click="PrintBtn_Click" Style = "{StaticResource gradientButtonStyle}">Drukuj</Button>
             </StackPanel>
         </Grid>
     </Grid>

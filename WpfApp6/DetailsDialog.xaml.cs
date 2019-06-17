@@ -45,6 +45,39 @@ namespace WpfApp6 {
             }
         }
 
+        private void PrintBtn_Click(object sender, RoutedEventArgs e) {
+            var printDialog = new PrintDialog();
+
+            if (printDialog.ShowDialog() == true) {
+                var doc = new FlowDocument();
+                doc.Blocks.Add(new Paragraph(new Run("Przesyłka nr " + SelectedPackage.PackageNumber)));
+
+
+                doc.Blocks.Add(new Paragraph(new Run("Data nadania: " + SelectedPackage.ShipmentDate.ToShortDateString())));
+                if (SelectedPackage.Status == Enums.PackageStatus.Delivered) {
+                    doc.Blocks.Add(new Paragraph(new Run("Data dostarczenia: " + SelectedPackage.DeliveryDate.ToShortDateString())));              
+                }
+                else {
+                    doc.Blocks.Add(new Paragraph(new Run("Status: " + Enums.PackageStatusExtensions.GetDescription(SelectedPackage.Status))));
+                }
+
+                doc.Blocks.Add(new Paragraph(new Bold(new Run("Nadawca:"))));
+                doc.Blocks.Add(new Paragraph(new Run(SelectedPackage.Sender.Name + " " + SelectedPackage.Sender.Surname)));
+                doc.Blocks.Add(new Paragraph(new Run(SelectedPackage.Sender.Street + "/" + SelectedPackage.Sender.LocalNumber)));
+                doc.Blocks.Add(new Paragraph(new Run(SelectedPackage.Sender.PostCode + " " + SelectedPackage.Sender.City)));
+
+                doc.Blocks.Add(new Paragraph(new Bold(new Run("Odbiorca:"))));
+                doc.Blocks.Add(new Paragraph(new Run(SelectedPackage.Receiver.Name + " " + SelectedPackage.Receiver.Surname)));
+                doc.Blocks.Add(new Paragraph(new Run(SelectedPackage.Receiver.Street + "/" + SelectedPackage.Receiver.LocalNumber)));
+                doc.Blocks.Add(new Paragraph(new Run(SelectedPackage.Receiver.PostCode + " " + SelectedPackage.Receiver.City)));
+
+                doc.Blocks.Add(new Paragraph(new Run("Waga: " + SelectedPackage.Weight + " kg")));
+
+                IDocumentPaginatorSource idpSource = doc;
+                printDialog.PrintDocument(idpSource.DocumentPaginator, "Nie wiem co to jest więc wpisze byle co");
+            }          
+        }
+
         private void CancelButton_Click(object sender, RoutedEventArgs e) {
             //SelectedPackage = this.original;
             BackToOriginal();
