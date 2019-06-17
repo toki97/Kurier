@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="KurierOnLine" Height="560" Width="700" Background="Gray">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Label Margin="3" FontSize="18">Numer przesyłki</Label>
+                <TextBox Margin="3" Padding="5" Width="400" FontSize="18" Text="{Binding PackageNumber}"></TextBox>
+            </StackPanel>
+            <Button Grid.Column="1" Padding="5" Margin="3,43,3,4" Click="SearchButton_Click">Szukaj
+                <Button.Background>
+                    <LinearGradientBrush  StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#f5f7fa" Offset="0"/>
+                        <GradientStop Color="#c3cfe2" Offset="0.5"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button FontSize="18" Margin="3,10,3,10" Padding="5" Click="AddButton_Click">Nowa przesyłka
+            </Button>
+        </Grid>
+        <Label Grid.Row="2"  FontSize="18"  >Dane przesyłki</Label>
+        <ListBox Grid.Row ="3" FontSize="18" Margin="3" Padding="5" 
+                 Name="orderTxtBox" ItemsSource="{Binding PackageList, Mode=TwoWay}"  DisplayMemberPath="PackageNumber"/>
+
+        <Grid Grid.Row="4">
+            <Button FontSize="18" Margin="3,10,3,10" Padding="5" Click="DetailsButton_Click">Szczegóły przesyłki</Button>
+        </Grid>
+    </Grid>
+</Window>

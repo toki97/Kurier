@@ -1,0 +1,118 @@
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\DetailsDialog.g.cs
+C:\Users\utoka\source\repos\WpfApp6\WpfApp6\obj\Debug\DetailsDialog.baml
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\DetailsDialog.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\ErrorDialog.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\NewDialog.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\QuestionDialog.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\SaveMsgDialog.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\DetailsDialog.baml
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\ErrorDialog.baml
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\NewDialog.baml
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\QuestionDialog.baml
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\SaveMsgDialog.baml
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+S:\UCZELNIA\wwwpf\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\bin\Debug\WpfApp6.exe.config
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\bin\Debug\WpfApp6.exe
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\bin\Debug\WpfApp6.pdb
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\DetailsDialog.g.cs
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\ErrorDialog.g.cs
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\MainWindow.g.cs
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\NewDialog.g.cs
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\QuestionDialog.g.cs
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\SaveMsgDialog.g.cs
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\App.g.cs
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\DetailsDialog.baml
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\ErrorDialog.baml
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\MainWindow.baml
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\NewDialog.baml
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\QuestionDialog.baml
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\SaveMsgDialog.baml
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6.g.resources
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6.exe
+E:\Studia\Semestr VI\Budowa aplikacji użytkowych w technologii WPF\Pracownia Specjalistyczna\projekt\WpfApp6\obj\Debug\WpfApp6.pdb
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\bin\Debug\WpfApp6.exe.config
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\bin\Debug\WpfApp6.exe
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\bin\Debug\WpfApp6.pdb
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\DetailsDialog.g.cs
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\ErrorDialog.g.cs
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\MainWindow.g.cs
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\NewDialog.g.cs
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\QuestionDialog.g.cs
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\SaveMsgDialog.g.cs
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\App.g.cs
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\DetailsDialog.baml
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\ErrorDialog.baml
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\MainWindow.baml
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\NewDialog.baml
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\QuestionDialog.baml
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\SaveMsgDialog.baml
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6.g.resources
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6.exe
+S:\UCZELNIA\wwwpf\projekt (1)\projekt\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\DetailsDialog.g.cs
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\ErrorDialog.g.cs
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\NewDialog.g.cs
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\QuestionDialog.g.cs
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\SaveMsgDialog.g.cs
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\App.g.cs
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\DetailsDialog.baml
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\ErrorDialog.baml
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\NewDialog.baml
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\QuestionDialog.baml
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\SaveMsgDialog.baml
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\utoka\STUDIA\SEMESTRVI\WPF\projekt\WpfApp6\obj\Debug\WpfApp6.pdb
