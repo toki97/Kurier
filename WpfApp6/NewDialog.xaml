@@ -5,20 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp6"
         mc:Ignorable="d"
-        Title="Nowa przesyłka" Height="560" Width="700" Background="LightGray">
-    <Window.Resources>
-        <Style x:Key = "gradientButtonStyle" TargetType = "Button">
-            <Setter Property="BorderThickness" Value="0"></Setter>
-            <Setter Property = "Background">
-                <Setter.Value>
-                    <LinearGradientBrush  StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="#BDBBBE " Offset="0"/>
-                        <GradientStop Color="#9D9EA3 " Offset="0.5"/>
-                    </LinearGradientBrush>
-                </Setter.Value>
-            </Setter>
-        </Style>
-    </Window.Resources>
+        Title="Nowa przesyłka" Height="560" Width="700" Style = "{StaticResource Background}">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
@@ -101,11 +88,11 @@
                 <ColumnDefinition Width="2*"></ColumnDefinition>
                 <ColumnDefinition Width="1.5*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <GroupBox Grid.Column="0" Margin="5" Padding="5"  FontSize="14" Header="Forma płatności">
+            <GroupBox Grid.Column="0" Margin="5" Padding="5"  FontSize="16" FontWeight="DemiBold" Header="Forma płatności">
                 <StackPanel Margin="3" Name="pizzaDough">
-                    <RadioButton Margin="5" VerticalContentAlignment="Center" Content="Przy odbiorze"></RadioButton>
-                    <RadioButton Margin="5" VerticalContentAlignment="Center" Content="Przelew tradycyjny"></RadioButton>
-                    <RadioButton Margin="5" VerticalContentAlignment="Center" Content="Płatność on-line"></RadioButton>
+                    <RadioButton Style="{StaticResource RadioTxt}" Content="Przy odbiorze"></RadioButton>
+                    <RadioButton Style="{StaticResource RadioTxt}" Content="Przelew tradycyjny"></RadioButton>
+                    <RadioButton Style="{StaticResource RadioTxt}" Content="Płatność on-line"></RadioButton>
                 </StackPanel>
             </GroupBox>
             <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
@@ -118,9 +105,9 @@
                 <TextBox Name="price" Margin="4" Padding="4" FontSize="14" Text="{Binding NewPackage.Price}"></TextBox>
                 <DatePicker Name="dayOfPosting" Margin="4" Padding="4" FontSize="14" SelectedDate="{Binding NewPackage.ShipmentDate}"></DatePicker>
             </StackPanel>
-            <StackPanel Grid.Column="3" VerticalAlignment="Bottom">
-                <Button Padding="5" Margin="15,4,4,4" FontSize="14" Click="AddButton_Click"  Style = "{StaticResource gradientButtonStyle}">Dodaj</Button>
-                <Button Padding="5" Margin="15,4,4,4" FontSize="14" Click="CancelButton_Click"  Style = "{StaticResource gradientButtonStyle}">Anuluj</Button>
+            <StackPanel Grid.Column="3" VerticalAlignment="Bottom" >
+                <Button Click="AddButton_Click"  Style = "{StaticResource BtnColorDlg}">Dodaj</Button>
+                <Button Click="CancelButton_Click"  Style = "{StaticResource BtnColorDlg}">Anuluj</Button>
             </StackPanel>
         </Grid>
     </Grid>

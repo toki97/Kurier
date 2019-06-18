@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp6"
         mc:Ignorable="d"
-        Title="KurierOnLine" Height="200" Width="400" Background="Gray">
+        Title="KurierOnLine" Height="200" Width="400" Style = "{StaticResource BackgroundDialog}">
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <Label FontSize="24" Margin="10" >Zapisać zmiany?</Label>
-            <Button FontSize="16" Margin="25,5,25,5" Padding="5" Width="100">TAK</Button>
-            <Button FontSize="16" Margin="25,5,25,5" Padding="5" Width="100">NIE</Button>
+            <Button Style="{StaticResource BtnColorQuestionDlg}">TAK</Button>
+            <Button Style="{StaticResource BtnColorQuestionDlg}">NIE</Button>
 
 
         </StackPanel>

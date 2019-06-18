@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp6"
         mc:Ignorable="d"
-        Title="KurierOnLine" Height="560" Width="700" Background="Gray">
+        Title="KurierOnLine" Height="560" Width="700" Style = "{StaticResource Background}">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
@@ -23,17 +23,11 @@
                 <Label Margin="3" FontSize="18">Numer przesyłki</Label>
                 <TextBox Margin="3" Padding="5" Width="400" FontSize="18" Text="{Binding PackageNumber}"></TextBox>
             </StackPanel>
-            <Button Grid.Column="1" Padding="5" Margin="3,43,3,4" Click="SearchButton_Click">Szukaj
-                <Button.Background>
-                    <LinearGradientBrush  StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="#f5f7fa" Offset="0"/>
-                        <GradientStop Color="#c3cfe2" Offset="0.5"/>
-                    </LinearGradientBrush>
-                </Button.Background>
+            <Button Grid.Column="1" Style="{StaticResource BtnColorSearch}" Click="SearchButton_Click">Szukaj
             </Button>
         </Grid>
         <Grid Grid.Row="1">
-            <Button FontSize="18" Margin="3,10,3,10" Padding="5" Click="AddButton_Click">Nowa przesyłka
+            <Button Style="{StaticResource BtnColorMainWindow}" Click="AddButton_Click">Nowa przesyłka
             </Button>
         </Grid>
         <Label Grid.Row="2"  FontSize="18"  >Dane przesyłki</Label>
@@ -41,7 +35,7 @@
                  Name="orderTxtBox" ItemsSource="{Binding PackageList, Mode=TwoWay}"  DisplayMemberPath="PackageNumber"/>
 
         <Grid Grid.Row="4">
-            <Button FontSize="18" Margin="3,10,3,10" Padding="5" Click="DetailsButton_Click">Szczegóły przesyłki</Button>
+            <Button Style="{StaticResource BtnColorMainWindow}" Click="DetailsButton_Click">Szczegóły przesyłki</Button>
         </Grid>
     </Grid>
 </Window>
