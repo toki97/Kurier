@@ -21,12 +21,37 @@ namespace WpfApp6
     /// <summary>
     /// Logika interakcji dla klasy MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, INotifyPropertyChanged
     {
         public uint PackageNumber { get; set; }
 
-        public ObservableCollection<Package> PackageList { get; set; } = new ObservableCollection<Package>();
+        private Package selectedPackage;
 
+        public Package SelectedPackage
+        {
+            get => selectedPackage;
+            set
+            {
+                selectedPackage = value;
+                NotifyOfPropertyChanged("SelectedPackage");
+            }
+        }
+
+        private ObservableCollection<Package> packageList = new ObservableCollection<Package>();
+        public ObservableCollection<Package> PackageList
+        {
+            get => packageList;
+            set
+            {
+                packageList = value;
+                NotifyOfPropertyChanged("PackageList");
+            }
+        }
+
+        private void NotifyOfPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
         public MainWindow()
         {
             InitializeComponent();
@@ -71,17 +96,43 @@ namespace WpfApp6
                 if (newPackage != null)
                 {
                     PackageList.Add(newPackage);
+                    originalPackages = new List<Package>(PackageList);
+
                 }
             }
         }
 
-        private void DetailsButton_Click(object sender, RoutedEventArgs e) {
+        private void DetailsButton_Click(object sender, RoutedEventArgs e)
+        {
             DetailsDialog detailsDialog = new DetailsDialog();
             detailsDialog.SelectedPackage = (Package)orderTxtBox.SelectedItem;
             detailsDialog.DoCopyForOriginal();
 
-            if (detailsDialog.ShowDialog() == false) {
+            if (detailsDialog.ShowDialog() == false)
+            {
                 PackageList.Remove(detailsDialog.SelectedPackage);
+                originalPackages = new List<Package>(PackageList);
+            }
+        }
+
+        private List<Package> originalPackages = new List<Package>();
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void PackageNoTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (sender is TextBox senderTextBox)
+            {
+                string filterText = senderTextBox.Text;
+
+                if (!string.IsNullOrWhiteSpace(filterText))
+                {
+                    PackageList = new ObservableCollection<Package>(originalPackages.Where(x => x.PackageNumber.ToString().Contains(filterText)));
+                }
+                else
+                {
+                    PackageList = new ObservableCollection<Package>(originalPackages);
+                }
             }
         }
     }

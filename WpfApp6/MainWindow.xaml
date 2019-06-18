@@ -15,27 +15,25 @@
             <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"></ColumnDefinition>
-                <ColumnDefinition ></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+
             <StackPanel Grid.Column="0">
                 <Label Margin="3" FontSize="18">Numer przesyłki</Label>
-                <TextBox Margin="3" Padding="5" Width="400" FontSize="18" Text="{Binding PackageNumber}"></TextBox>
+                <TextBox Margin="3" Padding="5"  FontSize="18" Text="{Binding PackageNumber}"
+                         TextChanged="PackageNoTextBox_TextChanged"></TextBox>
             </StackPanel>
-            <Button Grid.Column="1" Style="{StaticResource BtnColorSearch}" Click="SearchButton_Click">Szukaj
-            </Button>
+
         </Grid>
         <Grid Grid.Row="1">
             <Button Style="{StaticResource BtnColorMainWindow}" Click="AddButton_Click">Nowa przesyłka
             </Button>
         </Grid>
         <Label Grid.Row="2"  FontSize="18"  >Dane przesyłki</Label>
-        <ListBox Grid.Row ="3" FontSize="18" Margin="3" Padding="5" 
-                 Name="orderTxtBox" ItemsSource="{Binding PackageList, Mode=TwoWay}"  DisplayMemberPath="PackageNumber"/>
+        <ListBox Grid.Row ="3" FontSize="18" Margin="3" Padding="5"  SelectedItem="{Binding SelectedPackage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 Name="orderTxtBox" ItemsSource="{Binding PackageList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  DisplayMemberPath="PackageNumber"/>
 
         <Grid Grid.Row="4">
-            <Button Style="{StaticResource BtnColorMainWindow}" Click="DetailsButton_Click">Szczegóły przesyłki</Button>
+            <Button Style="{StaticResource BtnColorMainWindow}" Click="DetailsButton_Click"
+                    IsEnabled="{Binding SelectedPackage, Converter={StaticResource ObjectNotNullToBoolConverter}}">Szczegóły przesyłki</Button>
         </Grid>
     </Grid>
 </Window>

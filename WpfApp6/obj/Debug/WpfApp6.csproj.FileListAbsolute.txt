@@ -167,3 +167,30 @@ C:\Users\utoka\STUDIA\SEMESTRVI\WPF\Nowy folder\Kurier\WpfApp6\obj\Debug\WpfApp6
 C:\Users\utoka\STUDIA\SEMESTRVI\WPF\Nowy folder\Kurier\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
 C:\Users\utoka\STUDIA\SEMESTRVI\WPF\Nowy folder\Kurier\WpfApp6\obj\Debug\WpfApp6.exe
 C:\Users\utoka\STUDIA\SEMESTRVI\WPF\Nowy folder\Kurier\WpfApp6\obj\Debug\WpfApp6.pdb
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\bin\Debug\WpfApp6.exe.config
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\bin\Debug\WpfApp6.exe
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\bin\Debug\WpfApp6.pdb
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\DetailsDialog.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\ErrorDialog.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\MainWindow.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\NewDialog.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\QuestionDialog.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\SaveMsgDialog.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\App.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\App.baml
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\DetailsDialog.baml
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\ErrorDialog.baml
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\MainWindow.baml
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\NewDialog.baml
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\QuestionDialog.baml
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\SaveMsgDialog.baml
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6.g.resources
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6.exe
+S:\UCZELNIA\wpfwpfwpfwpf\WpfApp6\obj\Debug\WpfApp6.pdb

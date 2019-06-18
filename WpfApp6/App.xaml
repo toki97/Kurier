@@ -2,8 +2,11 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfApp6"
+             xmlns:converters="clr-namespace:WpfApp6.Converters"             
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+        <converters:ListAnyToBoolConverter x:Key="ListAnyToBoolConverter" />
+        <converters:ObjectNotNullToBoolConverter x:Key="ObjectNotNullToBoolConverter" />
         <Style x:Key="BtnColorDlg" TargetType="{x:Type Button}">
             <Setter Property="BorderThickness" Value="0"></Setter>
             <Setter Property="Background" Value="#9795f0"/>

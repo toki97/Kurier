@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commands.cs" />
+    <Compile Include="Converters\ListAnyToBoolConverter.cs" />
+    <Compile Include="Converters\ObjectNotNullToBoolConverter.cs" />
     <Compile Include="Enums\PackageStatus.cs" />
     <Compile Include="Enums\PaymentMethod.cs" />
     <Compile Include="Models\BaseModel.cs" />
