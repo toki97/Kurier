@@ -24,7 +24,11 @@ namespace WpfApp6
             InitializeComponent();
         }
 
-        private void OkButton_Click(object sender, RoutedEventArgs e)
+        private void OkButton_Click_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
+            e.CanExecute = true;
+        }
+
+        private void OkButton_Click(object sender, ExecutedRoutedEventArgs e)
         {
             this.Close();
         }

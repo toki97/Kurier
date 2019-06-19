@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters\ListAnyToBoolConverter.cs" />
+    <Compile Include="Converters\ObjectNotNullToBoolConverter.cs" />
     <Compile Include="Enums\PackageStatus.cs" />
     <Compile Include="Enums\PaymentMethod.cs" />
     <Compile Include="Models\BaseModel.cs" />
@@ -63,6 +65,7 @@
     </Compile>
     <Compile Include="Models\Package.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="MyCommands.cs" />
     <Compile Include="QuestionDialog.xaml.cs">
       <DependentUpon>QuestionDialog.xaml</DependentUpon>
     </Compile>

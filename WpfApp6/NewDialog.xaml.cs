@@ -36,7 +36,12 @@ namespace WpfApp6
             NewPackage.ShipmentDate = DateTime.Now.Date;
 
         }
-        private void AddButton_Click(object sender, RoutedEventArgs e)
+
+        private void AddButton_Click_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
+            e.CanExecute = true;
+        }
+
+        private void AddButton_Click(object sender, ExecutedRoutedEventArgs e)
         {
             if(Validate())
             {
@@ -64,7 +69,11 @@ namespace WpfApp6
             return true;
         }
 
-        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        private void CancelButton_Click_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
+            e.CanExecute = true;
+        }
+
+        private void CancelButton_Click(object sender, ExecutedRoutedEventArgs e)
         {
             this.DialogResult = false;
             this.Close();

@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="Szczegóły przesyłki" Height="590" Width="700" Style = "{StaticResource Background}"
         Name="detailsWindow">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:MyCommands.SaveChanges" CanExecute="SaveButton_Click_CanExecute" Executed="SaveButton_Click"></CommandBinding>
+        <CommandBinding Command="local:MyCommands.DeletePackage" CanExecute="DeleteButton_Click_CanExecute" Executed="DeleteButton_Click"></CommandBinding>
+        <CommandBinding Command="local:MyCommands.CloseDialog" CanExecute="CancelButton_Click_CanExecute" Executed="CancelButton_Click"></CommandBinding>
+        <CommandBinding Command="local:MyCommands.PrintDetails" CanExecute="PrintBtn_Click_CanExecute" Executed="PrintBtn_Click"></CommandBinding>
+    </Window.CommandBindings>
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
@@ -112,10 +118,10 @@
                 <TextBox Margin="4" Padding="4" FontSize="14" Text="{Binding SelectedPackage.DeliveryDate, StringFormat=dd/MM/yyyy}"></TextBox>
             </StackPanel>
             <StackPanel Grid.Column="3" >
-                <Button Padding="3" Click="SaveButton_Click" Style = "{StaticResource BtnColorDlg}">Zapisz</Button>
-                <Button Padding="3" Click="DeleteButton_Click" Style = "{StaticResource BtnColorDlg}">Usuń</Button>
-                <Button Padding="3" Click="CancelButton_Click" Style = "{StaticResource BtnColorDlg}">Wróć</Button>
-                <Button Padding="3" Click="PrintBtn_Click" Style = "{StaticResource BtnColorDlg}">Drukuj</Button>
+                <Button Padding="3" Command="local:MyCommands.SaveChanges" Style = "{StaticResource BtnColorDlg}">Zapisz</Button>
+                <Button Padding="3" Command="local:MyCommands.DeletePackage" Style = "{StaticResource BtnColorDlg}">Usuń</Button>
+                <Button Padding="3" Command="local:MyCommands.CloseDialog"  Style = "{StaticResource BtnColorDlg}">Wróć</Button>
+                <Button Padding="3" Command="local:MyCommands.PrintDetails" Style = "{StaticResource BtnColorDlg}">Drukuj</Button>
             </StackPanel>
         </Grid>
     </Grid>

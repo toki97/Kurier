@@ -6,10 +6,13 @@
         xmlns:local="clr-namespace:WpfApp6"
         mc:Ignorable="d"
        Title="KurierOnLine" Height="200" Width="400" Style = "{StaticResource BackgroundDialog}">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:MyCommands.Accept" CanExecute="OkButton_Click_CanExecute" Executed="OkButton_Click"></CommandBinding>
+    </Window.CommandBindings>
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <Label FontSize="24" Margin="10" >Wypełnij wszystkie pola.</Label>
-            <Button Style="{StaticResource BtnColorQuestionDlg}" Click="OkButton_Click">OK</Button>
+            <Button Style="{StaticResource BtnColorQuestionDlg}" Command="local:MyCommands.Accept">OK</Button>
 
         </StackPanel>
     </Grid>

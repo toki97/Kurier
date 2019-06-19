@@ -6,6 +6,11 @@
         xmlns:local="clr-namespace:WpfApp6"
         mc:Ignorable="d"
         Title="Nowa przesyłka" Height="560" Width="700" Style = "{StaticResource Background}">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:MyCommands.AddPackage" CanExecute="AddButton_Click_CanExecute" Executed="AddButton_Click"></CommandBinding>
+        <CommandBinding Command="local:MyCommands.CloseDialog" CanExecute="CancelButton_Click_CanExecute" Executed="CancelButton_Click"></CommandBinding>
+
+    </Window.CommandBindings>
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
@@ -106,8 +111,8 @@
                 <DatePicker Name="dayOfPosting" Margin="4" Padding="4" FontSize="14" SelectedDate="{Binding NewPackage.ShipmentDate}"></DatePicker>
             </StackPanel>
             <StackPanel Grid.Column="3" VerticalAlignment="Bottom" >
-                <Button Click="AddButton_Click"  Style = "{StaticResource BtnColorDlg}">Dodaj</Button>
-                <Button Click="CancelButton_Click"  Style = "{StaticResource BtnColorDlg}">Anuluj</Button>
+                <Button Command="local:MyCommands.AddPackage"  Style = "{StaticResource BtnColorDlg}">Dodaj</Button>
+                <Button Command="local:MyCommands.CloseDialog"  Style = "{StaticResource BtnColorDlg}">Anuluj</Button>
             </StackPanel>
         </Grid>
     </Grid>

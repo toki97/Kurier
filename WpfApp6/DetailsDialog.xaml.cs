@@ -45,7 +45,11 @@ namespace WpfApp6 {
             }
         }
 
-        private void PrintBtn_Click(object sender, RoutedEventArgs e) {
+        private void PrintBtn_Click_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
+            e.CanExecute = true;
+        }
+
+        private void PrintBtn_Click(object sender, ExecutedRoutedEventArgs e) {
             var printDialog = new PrintDialog();
 
             if (printDialog.ShowDialog() == true) {
@@ -78,7 +82,11 @@ namespace WpfApp6 {
             }          
         }
 
-        private void CancelButton_Click(object sender, RoutedEventArgs e) {
+        private void CancelButton_Click_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
+            e.CanExecute = true;
+        }
+
+        private void CancelButton_Click(object sender, ExecutedRoutedEventArgs e) {
             //SelectedPackage = this.original;
             BackToOriginal();
             this.DialogResult = true;
@@ -129,13 +137,22 @@ namespace WpfApp6 {
                 SelectedPackage.Status = Enums.PackageStatus.Sent;
             }
         }
-        private void SaveButton_Click(object sender, RoutedEventArgs e) {
+
+        private void SaveButton_Click_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
+            e.CanExecute = true;
+        }
+
+        private void SaveButton_Click(object sender, ExecutedRoutedEventArgs e) {
             this.CheckStatus();
             this.DialogResult = true;
             this.Close();
         }
 
-        private void DeleteButton_Click(object sender, RoutedEventArgs e) {
+        private void DeleteButton_Click_CanExecute(object sender, CanExecuteRoutedEventArgs e) {
+            e.CanExecute = true;
+        }
+
+        private void DeleteButton_Click(object sender, ExecutedRoutedEventArgs e) {
             this.DialogResult = false;
         }
     }
